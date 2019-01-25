@@ -36,7 +36,7 @@ int main(int argc, char const *argv[])
     printMatrix(needMatrix);
 
     cout << "fill available : \n";
-    vector<int> availableVector = fillVec(rows);
+    vector<int> availableVector = fillVec(cols);
 
     //cout << needLessWork(availableVector, needMatrix[0]) << "\n";
     is_safe(availableVector, allocation, needMatrix);
